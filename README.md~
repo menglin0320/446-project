@@ -1,0 +1,19 @@
+# 446-project
+captioning
+Our code is not neat and we can't upload all the data files so figuring out how to run our project is hard.
+
+The following instruction is only about how to use MCCOCO dataset.
+To run the code, you have to 
+
+1.Clone neural talk2, following the instruction to prepare COCO dataset.
+
+2.clone https://github.com/woodrush/neural-art-tf.git and use his code to get the binary file
+
+3.Change json_path and h5_path in preprocess_data.ipynb to the right routine
+
+4.Run preprocess_data.ipynb
+
+5.change json_path and h5_path in main.ipynb to the right routine
+
+6.run main.ipynb
+ 
